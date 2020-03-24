@@ -1,0 +1,25 @@
+{
+  "name": "workpeso",
+  "version": "1.0.0",
+  "description": "Backend API fot Vantea",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martabtab/workpeso.git"
+  },
+  "author": "marta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/martabtab/workpeso/issues"
+  },
+  "homepage": "https://github.com/martabtab/workpeso#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
+  }
+}
